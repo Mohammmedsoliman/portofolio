@@ -141,3 +141,32 @@ header{
     max-width: 350px;
   }
 }
+/* show sec style */
+.show{
+ margin-top: 10px;
+ width: 100%;
+}
+.show-container{
+  display: flex;
+  justify-content: space-around;
+}
+.show2{display: flex; align-items: center;}
+.bold-show{
+  display: block;
+  color: #01af37;
+  font-weight:900;
+  font-size: 70px;
+}
+.show-text{
+  color: #0b112b;
+  font-size: 20px;
+  padding-left: 15px;
+}
+/* show Media */
+@media (min-width:300px) and (max-width:600px) {
+  .show-container{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 290px;
+  }
+}
