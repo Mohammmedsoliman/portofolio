@@ -219,6 +219,9 @@ header{
  height: 90px;
  margin-top: 30px;
 }
+.can-i-do-card:hover{
+  border:2px #01af37 solid;
+}
 .can-i-do-text{
   color: #0e1638;
   font-weight: 800;
@@ -296,7 +299,7 @@ justify-items: center;
 
 @media (min-width:300px) and (max-width:600px) {
   .skills{
-    margin-top: 30px;
+    margin-top: 90px;
   }
   .skills-container{
     height: 250px;
