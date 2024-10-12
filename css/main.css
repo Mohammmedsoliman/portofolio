@@ -168,5 +168,150 @@ header{
     flex-direction: column;
     align-items: center;
     margin-top: 290px;
+  }}
+
+@media (min-width:601px) and (max-width:1100px) {
+  .bold-show{
+    display: block;
+    color: #01af37;
+    font-weight:900;
+    font-size: 60px;
+  }
+  .show-container{
+    margin-top: 0px;
+  }
+  .show-text{
+    color: #0b112b;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+}
+
+/* serviece styling */
+.service{
+  margin-top: 90px;
+  width: 100%;
+}
+.ser-title{
+  color: #01af37;
+  font-size: 45px;
+  display: block;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.ser-p{
+  color: #0b112b;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.can-i-do{
+  margin-top: 60px;
+  width: 100%;
+}
+.can-i-do-card{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-left: 10px #01af37 solid;
+  box-shadow:0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+ height: 90px;
+ margin-top: 30px;
+}
+.can-i-do-text{
+  color: #0e1638;
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-top: 130px;
+}
+.can-i-do-p{
+  color: #0e1638;
+  font-weight: 400;
+  font-size: medium;
+  margin-left: 25px;
+
+}
+/* media */
+
+@media (min-width:300px) and (max-width:600px) {
+  .service{
+    margin-top: 30px;
+  }
+  .ser-title{
+    font-size: 30px;
+  }
+  .ser-p{
+    font-size: 15px;
+  }
+  .can-i-do{
+    margin-top: 30px;
+  }
+  .can-i-do-card{
+    width: 90%;
+  }
+  .can-i-do-text{
+    font-size: 20px;
+  }
+  .can-i-do-p{
+    font-size: 13px;
+  }
+}
+/* Skills styling */
+
+.skills{
+  margin-top: 60px;
+  width: 100%;
+}
+.skills-container{
+  width: 100%;
+  height: 300px;
+}
+.skills-title{
+  color: #01af37;
+  font-size: 45px;
+  display: block;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.skill-con{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skill-card{
+box-shadow:0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+width: 14%;
+border-radius: 6px;
+}
+.skill-card-logo{
+align-items: center;
+justify-items: center;
+
+}
+/* media */
+
+@media (min-width:300px) and (max-width:600px) {
+  .skills{
+    margin-top: 30px;
+  }
+  .skills-container{
+    height: 250px;
+  }
+  .skills-title{
+    font-size: 30px;
+  }
+  .skill-con{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .skill-card{
+    width: 50%;
+    margin-bottom: 20px;
   }
 }
