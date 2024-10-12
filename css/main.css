@@ -219,9 +219,6 @@ header{
  height: 90px;
  margin-top: 30px;
 }
-.can-i-do-card:hover{
-  border:2px #01af37 solid;
-}
 .can-i-do-text{
   color: #0e1638;
   font-weight: 800;
@@ -236,11 +233,12 @@ header{
   margin-left: 25px;
 
 }
+
 /* media */
 
 @media (min-width:300px) and (max-width:600px) {
   .service{
-    margin-top: 60px;
+    margin-top: 30px;
   }
   .ser-title{
     font-size: 30px;
@@ -289,6 +287,11 @@ header{
 box-shadow:0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
 width: 14%;
 border-radius: 6px;
+transition: 0.2s;
+}
+.skill-card:hover{
+  border: 2px #01af37 solid;
+  box-shadow:0 10px 15px -3px rgba(3, 192, 82, 0.219), 0 4px 6px -2px rgba(4, 158, 50, 0.05);
 }
 .skill-card-logo{
 align-items: center;
@@ -299,7 +302,7 @@ justify-items: center;
 
 @media (min-width:300px) and (max-width:600px) {
   .skills{
-    margin-top: 90px;
+    margin-top: 30px;
   }
   .skills-container{
     height: 250px;
