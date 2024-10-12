@@ -237,7 +237,7 @@ header{
 
 @media (min-width:300px) and (max-width:600px) {
   .service{
-    margin-top: 30px;
+    margin-top: 60px;
   }
   .ser-title{
     font-size: 30px;
